@@ -2,6 +2,9 @@
   "name": "web-h5-next",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=16.12.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +12,50 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.31",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "next": "12.1.6",
+    "next-absolute-url": "^1.2.2",
+    "@next/bundle-analyzer": "^12.0.3",
+    "next-build-id": "^3.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.2"
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.33.4",
+    "react-transition-group": "^4.4.2",
+    "xprofiler": "^1.4.0",
+    "xtransit": "^1.4.1"
+  },
+  "devDependencies": {
+    "next-compose-plugins": "^2.2.1",
+    "next-with-less": "^2.0.2",
+    "@tyc/eslint-config": "^1.0.0",
+    "@types/js-cookie": "^3.0.3",
+    "@types/node": "17.0.21",
+    "@types/react": "17.0.39",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
+    "less": "^4.1.2",
+    "clean-css": "^5.2.2",
+    "css-minimizer-webpack-plugin": "^3.1.2",
+    "less-loader": "^10.2.0",
+    "lint-staged": "^12.3.7",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.6.0",
+    "terser-webpack-plugin": "^5.2.5",
+    "rimraf": "^3.0.2",
+    "typescript": "4.6.2"
+  },
+  "resolutions": {
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.14"
   }
 }
